@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+form{
+    padding: 100px;
+    margin: 50px auto;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    border-radius: 15px;
+    font-size: 22px;
+}
+form:hover{
+    background-color: rgb(146, 243, 243);
+    color: white;
+}
+input{
+    width: 100%;
+    border: none;
+    background-color: rgb(192, 190, 192);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.89);
+    outline: none;
+}
+input:hover{
+    background-color: rgb(248, 248, 245);
+    color: rgb(192, 190, 192);
+}
+.button{
+    width: 100px;
+    border-radius: 6px;
+    padding: 7px;
+    margin: 0 auto;
+    border: none;
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color: rgba(155, 155, 155, 0.719);
+}
+.content{
+    border: none;
+    color: white;
+    background-color: rgb(100, 99, 99);
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+.content:hover{
+    background-color: white;
+    color: gold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(158, 158, 158);
+    position: sticky;
+    top: 0;
+}
+body{
+    background-color: #cfcfcf;
+}
+h1{
+    color: #f4f4f4;
+}
+
+h1:hover{
+    color: gold;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+}
+.card-type{
+    width: 50%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.card-name{
+    background-color: white;
+    width: 100%;
+    text-align: center;  
+    border-radius: 15px;
+}
+.card-name:hover{
+    background-color: #2eb9fafd;
+}
+.names{
+    margin: 0 auto;
+    text-align: center;
+    color: #bffc19;
+    font-size: 30px;
+}
+.names:hover{
+    color: gold;
+}
+
+.box-text{
+    font-size: 25px;
+    opacity: 0.8;
+    color: #c1f72e;
+}
+.box-text:hover{
+    color: gold;
+}
+.box-content{
+    font-size: 22px;
+    color: rgb(227, 253, 79);
+}
+.box-content:hover{
+    color: gold;
+}
+
+.none{
+    background-color: blue;
+    border-radius: 3px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin: 10px 2px;
+    padding: 7px 25px;
+}
+.none:hover{
+    background-color: aqua;
+    color: green;
+}
